@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*   header start */
+
+header {
+    overflow: hidden;
+    min-height: 100px;
+    background-color: #012D2E;
+}
+.wrapper {
+    overflow: hidden;
+    width: 81%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.nav {
+    width: 60%;
+    float: right;
+}
+.nav ul {
+    float: right;
+}
+.nav ul li {
+    float: left;
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    margin-top: 50px;
+    color: white;
+    transition: .5s;
+}
+.nav ul li:last-child a {
+    padding-right: 0;
+}
+.nav ul li a:hover {
+    color: #012D2E;
+    background-color: #03D5BC;
+}
+
+/* header end */
+
+
+/*banner start*/
+
+.banner {
+    background-image: url(../img/circuit-3.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner_content {
+    width: 50%;
+    color: white;
+    margin-top: 180px;
+    background-color:black;
+    border: none;
+    opacity: .9;
+}
+.banner_content h2 {
+    font-size: 50px;
+}
+.banner_content h1 {
+    font-size: 60px;
+    color: #01B5BC;
+}
+.banner_content p {
+    font-size: 21px;
+}
+.banner_content button {
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #012D2E;
+}
+.banner_content button:hover {
+    color: #009EDC;
+}
+
+/*banner end*/
+
+
+/* service start*/
+
+.service {
+    background-color: #012D2E;
+    overflow: hidden;
+}
+.wrapper_two {
+    width: 81%;
+    margin: 0 auto;
+}
+.services {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.single {
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+}
+.single:last-child {
+    border: none;
+}
+.single_header {
+    overflow: hidden;
+}
+.single_logo {
+    width: 30%;
+    float: left;
+}
+.single_logo img {
+    width: 100%;
+}
+.single_text {
+    float: left;
+    width: 60%;
+    padding: 13px;
+}
+.para_one {
+    font-size: 30px;
+    color: white;
+}
+.para_two {
+    font-size: 35px;
+    color: #03D5BC;
+}
+.single_content {}
+.single_content p {
+    font-size: 17px;
+    color: white;
+    line-height: 22px;
+}
+
+/*service end*/
+/*service three start*/
+.service_three {
+    overflow: hidden;
+    background-color: #03B06A;
+    overflow: hidden;
+}
+.wrapper_three {
+    width: 80% ;
+    margin: 0 auto;
+    background-color:;
+    overflow: hidden;
+    padding: 35px 0;
+}
+.single_one {
+    color:white;
+    width: 25%;
+    float: left;
+    
+}
+.inner {
+    font-size: 25px;
+    color: white;
+}
+.outer {
+    font-size: 25px;
+    color: #012D2E;
+}
+.single_two {
+    color: white;
+    width:33%;
+    float: left;
+    
+}
+.single_three {
+    width: 40%;
+    float: left;
+    
+    
+}
+.single_threelogo {
+  float: left;
+}
+
+
+.single_namelogo {
+    float: left; 
+}
+.single_name {
+    float: left;
+}
+.appstore_logo {
+    
+}
+/*service  three end*/
+.footer {
+    background-color: #012D2E;
+    overflow: hidden;
+    min-height: 100px;
+}
+.footer_wrapper {
+    width: 81%;
+    margin: 0 auto;
+    min-height: 100px;
+}
+.fnav {
+    width: 65%;
+    float: left;
+}
+.fnav ul {
+    float: left;
+}
+.fnav ul li {
+    float: left;
+    list-style: none;
+}
+.fnav ul li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+.fnav ul li: a {
+    padding-right: 0;
+}
+.fnav ul li a:hover {
+    color: #012D2E;
+    background-color: #03D5BC;
+}
+.footer_logo {
+    height: 100px;
+    width: 30px;
+    float: left;
+}
+.fnav p{
+    color: white;
+    margin-left: 10px;
+    
+}
+
+/*footer end*/
+
