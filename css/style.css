@@ -187,10 +187,11 @@ header {
     
 }
 .single_threelogo {
-    width: 225px;
   float: left;
 }
-
+.single_threelogo img {
+    width:225px;
+}
 
 .single_namelogo {
     float: left; 
