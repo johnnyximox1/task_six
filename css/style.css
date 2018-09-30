@@ -61,6 +61,7 @@ header {
     overflow: hidden;
 }
 .banner_content {
+    margin-bottom: 50px;
     width: 50%;
     color: white;
     margin-top: 180px;
